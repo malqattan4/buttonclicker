@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="navbar wrapper">
+        <h1 id="title"> <b> Dojonary</b></h1>
+        <input id="search" type="text" placeholder="Search">
+        <input id="login" onclick="logout(this)" type="button" value="Login">
+        
+    </div>
+
+    <div class="main wrapper">
+        <div class="left">
+            <div class="topbot">
+                <div class="in">
+                    <h1 id="ninja"><b>ninja</b></h1>
+                    <p id="noun"> <em>noun</em></p>
+                    <p id="plural">Plural: <em>ninjas</em></p>
+                    <input id="likes" onclick="alert('Ninja was liked')" type="button" value="13 likes">
+                </div>
+                <div class="description">
+                    <p>A practitioner skilled in the <u id="blue">Japanese</u> art of <u id="blue">ninjutsu</u></p>
+                </div>
+            </div>
+
+            <div class="topbot">
+                <div class="in">
+                    <h1 id="ninja"> <b>ninja</b></h1>
+                    <p id="noun"><em>noun</em></p>
+                    <p id="plural">Plural: <em>ninjas</em></p>
+                    <input id="likes" onclick="alert('Ninja was liked')" type="button" value="37 likes">
+                </div>
+                <div class="description">
+                    <p>A <u id="blue">programmer</u> who breaks down problems with <u id="blue">zen</u>-like focus </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <h2 id="dojo">Dojonary is defined by <b>YOU</b></h2>
+            <input id="add" onclick="hide(this)" type="button" value="Add Definition">
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>

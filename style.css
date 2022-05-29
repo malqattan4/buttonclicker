@@ -1,0 +1,93 @@
+.navbar {
+    display: flex;
+    background-color: gainsboro;
+    justify-content: space-between;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.main {
+    display: flex;
+}
+
+.wrapper {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#title {
+    margin-left: 20px;
+}
+
+#search {
+    height: 20px;
+    width: 250px;
+    margin-top: 30px;
+
+}
+
+#login {
+    height: 25px;
+    width: 60px;
+    font-family: 'Quicksand', sans-serif;
+    margin-right: 35px;
+    margin-top: 30px;
+    background-color: #2b78e4;
+    color: white;
+    box-shadow: 3px 3px 0 black;
+    border: solid black;
+}
+
+.topbot {
+    border: 2px solid black;
+    margin-top: 25px;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    height: 200px;
+    width: 500px;
+
+}
+
+.in {
+    margin-left: 30px;
+}
+
+#likes {
+    background-color: #ffd966;
+    height: 32px;
+    width: 90px;
+    border: solid black;
+    box-shadow: 3px 3px 0 black;
+}
+
+#blue {
+    color: #0c5595;
+}
+
+.description {
+    margin-top: 70px;
+    max-width: 49%;
+    margin-left: 17%;
+    size: 50px;
+}
+
+.right{
+    border: 2px solid black;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 25px;
+    height: 150px;
+    margin-left: 25px;
+    max-width: 30%;
+}
+
+#dojo{
+    margin-left: 20px;
+}
+
+#add{
+    background-color:#94c47d;
+    box-shadow: 3px 3px 0 black;
+    border: solid black;
+    width: 180px;
+    height: 30px;
+    margin-left: 20px;
+}
